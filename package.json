@@ -1,0 +1,13 @@
+{
+  "name": "cloudglo-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CloudGlo Consulting - Professional consulting services",
+  "scripts": {
+    "dev": "wrangler pages dev public --port 3000",
+    "deploy": "wrangler pages deploy public --project-name=cloudglo-com"
+  },
+  "devDependencies": {
+    "wrangler": "^3.91.0"
+  }
+}
