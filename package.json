@@ -4,10 +4,11 @@
   "private": true,
   "description": "CloudGlo Consulting - Professional consulting services",
   "scripts": {
-    "dev": "wrangler pages dev public --port 3000",
-    "deploy": "wrangler pages deploy public --project-name=cloudglo-com"
+    "dev": "wrangler pages dev --port 3000",
+    "deploy": "wrangler pages deploy",
+    "deploy:preview": "wrangler pages deploy --env preview"
   },
   "devDependencies": {
-    "wrangler": "^3.91.0"
+    "wrangler": "^4.0.0"
   }
 }
