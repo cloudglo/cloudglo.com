@@ -1,3 +1,4 @@
 name = "cloudglo-com"
 compatibility_date = "2024-12-09"
-pages_build_output_dir = "./public"
+[assets]
+directory = "./public"
